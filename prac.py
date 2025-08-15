@@ -1,6 +1,6 @@
-l=int(input("Length of the cuboid:"))
-b=int(input("Breadth ofthe cuboid:"))
-h=int(input("Height of the cuboid:"))
+l=float(input("Length of the cuboid:"))
+b=float(input("Breadth ofthe cuboid:"))
+h=float(input("Height of the cuboid:"))
 
 TSA = 2*(l*b + b*h + l*h)
 v=l*b*h
