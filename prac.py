@@ -1,6 +1,8 @@
-name = input("Enter your name: ")
-fname = input("Enter your father's name: ")
-grade = int(input("Enter your class: "))
-sname = input("Enter your school name: ")
+l=int(input("Length of the cuboid:"))
+b=int(input("Breadth ofthe cuboid:"))
+h=int(input("Height of the cuboid:"))
 
-print(f"Name: {name}\nFather's Name: {fname}\nClass: {grade}\nSchool Name: {sname}")
+TSA = 2*(l*b + b*h + l*h)
+v=l*b*h
+print("Total Surface Area of cuboid =",TSA)
+print("Volume of cuboid =",v)
